@@ -1,0 +1,54 @@
+.App {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 40px;
+    text-align: left;
+}
+
+.App-header {
+    background-color: #222222;
+    color: white;
+    height: 150px;
+    padding: 20px;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.books {
+    margin: 30px 0;
+    max-width: 250px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 0;
+}
+
+h3 {
+    color: rgb(123, 22, 69);
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+p {
+    border-top: 1px solid #cdcdcd;
+    margin: 0;
+    padding: 10px 0;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
